@@ -1,0 +1,133 @@
+body {
+    display: block;
+    /* height: 100vh;
+    width: 100vw; */
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    /* margin: 0; */
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: inline;
+    position: relative;
+    top: 8px;
+}
+
+.leftnav {
+    display: inline;
+    margin: 7px 0 0 10px;
+}
+
+#about, #store{
+    padding-left: 15px;
+}
+
+.rightnav {
+    
+    display: flex;
+    float: right;
+    column-gap: 15px;
+    padding: 0 30px;
+    align-items: center;
+}
+
+.google-apps {
+    display: inline-block;
+    background-position: -132px -38px;
+    background-image: url(//ssl.gstatic.com/gb/images/i2_2ec824b0.png);
+    background-size: 528px 68px;
+    height: 30px;
+    width: 30px;
+    opacity: .66;
+
+}
+
+#sign-in {
+    text-decoration: none;
+    color: #fff;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    padding: 0 12px;
+    line-height: 28px;
+}
+
+.main-content {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 50px;
+
+}
+
+.google-logo {
+    transition: margin-top 0.4s ease,height 0.4s ease;
+}
+
+
+#google-logo-img{
+    height: 72px;
+    padding-top: 10px !important;
+}
+
+.search-area {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+}
+
+.search-bar {
+    display: flex;
+    width: 560px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 39px;
+    padding: 5px 8px 0 14px;
+    
+    
+}
+
+.mag-glass {
+    display: flex;
+    align-self: center;
+    color: #9aa0a6;
+    fill: currentColor;
+    height: 20px;
+    width: 20px;
+    line-height: 24px;
+    
+}
+
+svg {
+    height: 100%;
+    width: 100%;
+}
+
+:not(svg) {
+    transform-origin: 0px 0px;
+}
+
+#Search-box {
+    border: none;
+    width: 582px;
+    background-color: transparent;
+    color: rgba(0,0,0,.87);
+    outline: none;
+    height: 34px !important;
+}
+
+/* #google-logo-img {
+    align
+} */
+
+footer {
+    
+}
