@@ -178,6 +178,10 @@ svg {
     text-decoration: none;
 }
 
+.footer-bar a:hover {
+    text-decoration: underline;
+}
+
 .leftfoot {
     display: flex;
     margin-right: auto;
